@@ -4,6 +4,14 @@
 
 This utility takes a sheet music pdf and applies a filter to make it more printer friendly (useful for scanned scores).
 
+### Before:
+
+![Before](images/before.png)
+
+### After:
+
+![After](images/after.png)
+
 ## Installation
 
 1. Clone the repository:
