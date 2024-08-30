@@ -15,7 +15,7 @@ This utility takes a sheet music pdf and applies a filter to make it more printe
 2. Navigate into the project directory:
 
     ```bash
-    cd repository
+    cd scorecleaner
     ```
 
 3. Install dependencies:
