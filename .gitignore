@@ -1,3 +1,4 @@
 inputs/*
 outputs/*
+tmp
 .DS_Store
