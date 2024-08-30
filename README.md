@@ -4,6 +4,8 @@
 
 This utility takes a sheet music pdf and applies a filter to make it more printer friendly (useful for scanned scores).
 
+Currently only MacOS is supported.
+
 ### Before:
 
 ![Before](images/before.png)
