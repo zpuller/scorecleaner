@@ -1,5 +1,11 @@
 import PyPDF2
+import re
 import sys
+
+
+def extract_page_number(filename):
+    match = re.search(r'_page_(\d+)', filename)
+    return int(match.group(1)) if match else -1
 
 
 def concat_pdfs(input_paths, output_path):
@@ -14,4 +20,5 @@ def concat_pdfs(input_paths, output_path):
 
 input_paths = sys.argv[2:]
 output_path = sys.argv[1]
-concat_pdfs(input_paths, output_path)
+sorted_files = sorted(input_paths, key=extract_page_number)
+concat_pdfs(sorted_files, output_path)
